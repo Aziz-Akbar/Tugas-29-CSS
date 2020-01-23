@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Belajar CSS - Niomic</title>
+  <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="dist/components/icon.css">
+
+  <style type="text/css">
+    body {
+      background-color: #DADADA;
+      margin-top: 100px;
+    }
+
+    body>.grid {
+      height: 100%;
+    }
+
+    .image {
+      margin-top: -100px;
+    }
+
+    .column {
+      max-width: 450px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ui middle aligned center aligned grid">
+    <div class="column">
+      <h2 class="ui teal image header">
+        <img src="niomic.png" class="image">
+        <div class="content">Daftar Akun Niomic</div>
+      </h2>
+      <form class="ui large form">
+        <div class="ui stacked segment">
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" name="ndepan" placeholder="Nama Depan">
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" name="nbelakang" placeholder="Nama Belakang">
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" name="ndepan" placeholder="No Telp/HP">
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="email" name="ndepan" placeholder="Alamat Email">
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="lock icon"></i>
+              <input type="password" name="ndepan" placeholder="Password">
+            </div>
+          </div>
+          <div class="ui fluid large teal submit button">Daftar</div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="dist/semantic.min.js"></script>
+</body>
+
+</html>
